@@ -6,13 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="nio01 (1)" />
-        <module name="nio01" />
+        <module name="homework_04" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="nio01" target="8" />
-      <module name="nio01 (1)" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
