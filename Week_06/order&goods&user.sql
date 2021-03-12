@@ -9,10 +9,10 @@ create table t_order(
     goods_id BIGINT NOT NULL comment '商品ID',
     payment_amt DECIMAL(38,4) NOT NULL comment '支付金额',
     discount_amt DECIMAL(38,4) NOT NULL comment '优惠金额',
-    payment_time TIMESTAMP NOT NULL comment '支付时间',
-    dispatch_time TIMESTAMP NOT NULL comment '发货时间',
-    create_time TIMESTAMP NOT NULL comment '创建时间',
-    update_time TIMESTAMP NOT NULL comment '更新时间'
+    payment_time BIGINT NOT NULL comment '支付时间',
+    dispatch_time BIGINT NOT NULL comment '发货时间',
+    create_time BIGINT NOT NULL comment '创建时间',
+    update_time BIGINT NOT NULL comment '更新时间'
 )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 ## 商品表
@@ -25,8 +25,8 @@ CREATE TABLE t_goods(
     image_id BIGINT NOT NULL comment '图片ID',
     store_id BIGINT NOT NULL comment '店铺ID',
     cate_id BIGINT NOT NULL comment '商品分类ID',
-    create_time TIMESTAMP NOT NULL comment '创建时间',
-    update_time TIMESTAMP NOT NULL comment '更新时间'
+    create_time BIGINT NOT NULL comment '创建时间',
+    update_time BIGINT NOT NULL comment '更新时间'
 )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 ## 用户表
@@ -41,6 +41,6 @@ create table t_user(
    phone VARCHAR(32) NOT NULL comment '手机号码',
    credentials_type CHAR(2) NOT NULL comment '证件类型，01：身份证，02：驾驶证，03：军官证',
    credentials_id VARCHAR(128) NOT NULL comment '证件ID',
-   create_time TIMESTAMP NOT NULL comment '创建时间',
-   update_time TIMESTAMP NOT NULL comment '更新时间'
+   create_time BIGINT NOT NULL comment '创建时间',
+   update_time BIGINT NOT NULL comment '更新时间'
 )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
