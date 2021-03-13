@@ -6,7 +6,7 @@
 第十周必做题
 （必做）给前面课程提供的 Student/Klass/School 实现自动配置和 Starter。
 三个类Student/Klass/School在如下目录：
-Week_05/Required/homework_week05/src/main/java/com/example/course10/entity/
+Week_05/Required/homework_week05/src/main/java/com/example/course10/bball.entity/
 
 starter：Week_05/Required/homework_week05/src/main/java/com/example/course10/Course10ApplicationStarter.java
 
@@ -16,4 +16,4 @@ starter：Week_05/Required/homework_week05/src/main/java/com/example/course10/Co
 3）配置 Hikari 连接池，改进上述操作。提交代码到 Github。
 
 main方法实现的查看：Week_05/Required/homework_week05/src/main/java/com/example/course10/demo/JdbcDemo.java
-spring boot实现Hikari连接池查看：Week_05/Required/homework_week05/src/main/java/com/example/course10/service/EmpService.java
+spring boot实现Hikari连接池查看：Week_05/Required/homework_week05/src/main/java/com/example/course10/bball.service/EmpService.java

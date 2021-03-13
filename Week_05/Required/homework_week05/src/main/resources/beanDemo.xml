@@ -2,5 +2,5 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="beanDemo" class="com.example.course10.service.BeanDemo" init-method="init" destroy-method="destroyMethod"/>
+    <bean id="beanDemo" class="com.example.course10.bball.service.BeanDemo" init-method="init" destroy-method="destroyMethod"/>
 </beans>

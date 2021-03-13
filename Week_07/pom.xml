@@ -10,6 +10,14 @@
     </parent>
 
     <artifactId>Week_07</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>lesson13</module>
+        <module>lesson14-multidatasource</module>
+        <module>lesson14-dynamicdatasource</module>
+        <module>lesson14-routingdatasource</module>
+    </modules>
 
     <dependencies>
         <dependency>

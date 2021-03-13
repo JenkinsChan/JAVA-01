@@ -19,7 +19,7 @@ public class NettyServerApplication {
         // 这是之前的单个后端url的例子
 //        String proxyServer = System.getProperty("proxyServer","http://localhost:8088");
 //          //  http://localhost:8888/api/hello  ==> gateway API
-//          //  http://localhost:8088/api/hello  ==> backend service
+//          //  http://localhost:8088/api/hello  ==> backend bball.service
         // java -Xmx512m gateway-server-0.0.1-SNAPSHOT.jar  #作为后端服务
 
 
