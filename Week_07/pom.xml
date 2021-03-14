@@ -17,13 +17,14 @@
         <module>lesson14-multidatasource</module>
         <module>lesson14-dynamicdatasource</module>
         <module>lesson14-routingdatasource</module>
+        <module>lesson14-shardingjdbc</module>
     </modules>
 
     <dependencies>
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.4.2</version>
+            <version>${mybatis-plus.version}</version>
         </dependency>
     </dependencies>
 
