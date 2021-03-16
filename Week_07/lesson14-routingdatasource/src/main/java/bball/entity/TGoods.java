@@ -1,8 +1,6 @@
 package bball.entity;
 
-import lombok.Builder;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
+import lombok.*;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
@@ -15,8 +13,8 @@ import java.math.BigDecimal;
  * @author jobob
  * @since 2021-03-13
  */
-@Data
-@EqualsAndHashCode(callSuper = false)
+@Setter
+@Getter
 @Builder
 public class TGoods implements Serializable {
 
