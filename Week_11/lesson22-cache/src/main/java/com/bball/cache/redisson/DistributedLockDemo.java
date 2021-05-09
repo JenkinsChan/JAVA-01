@@ -31,7 +31,7 @@ public class DistributedLockDemo {
             new Thread(() -> increment(latch)).start();
         }
         latch.await();
-        System.out.println("累计后计数器等于：" + count);
+        System.out.println("累加后计数器等于：" + count);
     }
 
     @SneakyThrows
